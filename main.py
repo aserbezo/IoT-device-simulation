@@ -13,7 +13,7 @@ with open('sofia-burgas-route.json', 'rb') as file:
 # loaded data
 data = json.loads(decoded_content)
 # between 75 to 105 degrees Celsius
-speed = [60,,65,68,70,,77,74,80,,88,85,81,90,92,94,96,,95,100,111,104,105,110,120,150,160]
+speed = [60,64,65,68,70,75,77,74,80,82,88,85,81,90,92,94,96,97,95,100,111,104,105,110,120,150,160]
 temp = [75, 80 ,90,100,76,90,100,110,115,130,77,83]
 alert = ['None','Battery Charge Warning Light','Oil Pressure Warning Light','Brake Warning Light','Transmission Temperature','None','None','None','None']
 #  Normal 30 to 35 PSI
@@ -60,7 +60,8 @@ for value in data.values():
         curr_speed = random.choice(speed)
         curr_tire_pressure = random.choice(tire_pressure)
         curr_alet = random.choice(alert)
-        message_content = {'Latitude': Latitude,
+        message_content = {'DeviceId': 1112222333,
+                           'Latitude': Latitude,
                            'Longitude': Longitude,
                            'time':current_time,
                            'temp': curr_temp,
