@@ -1,6 +1,6 @@
 
 <div align=center>
-    <img src="./doc/images/azure_iot_sdk_python_banner.png"></img>
+    <img src="azure_iot_sdk_python_banner.png"></img>
     <h1> azure-iot-device </h1>
 </div>
 
