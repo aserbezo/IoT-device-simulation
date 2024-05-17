@@ -1,7 +1,7 @@
 
 <div align=center>
      <h1> Azure-IoT-Car-Device-Simulator </h1>
-    <img src="azure_iot_sdk_python_banner.png"></img>
+    <img src="azure_iot_sdk_python.png"></img>
 </div>
 
 The Azure IoT Device SDK for Python enables  easily create IoT device  that can connect to the Azure IoT Hub ecosystem.
