@@ -1,5 +1,20 @@
-# IoT-device-simulation
 
+<div align=center>
+    <img src="./doc/images/azure_iot_sdk_python_banner.png"></img>
+    <h1> azure-iot-device </h1>
+</div>
+
+The Azure IoT Device SDK for Python enables  easily create IoT device  that can connect to the Azure IoT Hub ecosystem.
+
+## Installing the library
+
+The Azure IoT Device library is available on PyPI:
+
+```Shell
+pip install azure-iot-device
+```
+
+Python 3.7 or higher is required in order to use the library
 
 
 When you send a message from a device to Azure IoT Hub, the message body is typically encoded because IoT Hub accepts messages in a binary format. This encoding ensures that the message content can be transmitted efficiently over the network and processed correctly by Azure services.
